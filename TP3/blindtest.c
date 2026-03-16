@@ -138,7 +138,9 @@ int load_songs(char *filename, Song lib[])
             continue;
         }
 
-        // TO DO
+        strcpy(lib[count].filename, file);
+        strcpy(lib[count].title, title);
+        strcpy(lib[count].artist, artist);
         // STOCKER LES CHANSONS
 
         count++;
@@ -148,6 +150,4 @@ int load_songs(char *filename, Song lib[])
     return count;
 }
 
-/* -------------------------------------------------- */
-/* PROGRAMME PRINCIPAL                                */
-/* -------------------------------------------------- */
+void melanger_musique()
