@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../TP4_S2_TU_test/TP4_S2_TU_test.vcxproj" />
+  <Project Path="TP4_S2_TU.vcxproj" Id="391ea4e7-3b8e-494d-952c-c723132464ff" />
+</Solution>
